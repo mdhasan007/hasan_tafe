@@ -11,8 +11,8 @@ print(display)
 
 parser = argparse.ArgumentParser(description='port scanner')
 parser.add_argument('-t',  '--target', type=str, help='target ip address to scan')
-#parser.add_argument('-o', '--output', help=" Output the results in a file", \
-#			action='store_true') 
+parser.add_argument('-o', '--output', help=" Output the results in a file", \
+			action='store_true') 
 args = parser.parse_args()
 
 
