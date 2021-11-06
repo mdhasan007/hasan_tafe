@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#ip address need to be changed accordingly
 import sys
 import os
 import nmap # import nmap.py module
